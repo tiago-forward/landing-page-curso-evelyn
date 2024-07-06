@@ -48,3 +48,9 @@ body {
     transition: all 250ms linear;
     opacity: 1;
 }
+
+@layer utilities {
+    .rounded-custom {
+        border-radius: 16% 84% 0% 100% / 43% 0% 100% 57%;
+    }
+}
