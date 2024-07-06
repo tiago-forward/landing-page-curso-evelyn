@@ -3,10 +3,17 @@
 @tailwind utilities;
 
 :root {
-    --primary: #3490dc;
-    --secondary: #ffed4a;
-    --dark: #222;
-    --light: #f9f9f9;
+    --primary: #BF887E;
+    --secondary: #56626A;
+
+    --pr-1: #EBE6E6;
+    --pr-2: #DCC9C0;
+    --sr-1: #DAD3CC;
+    --sr-2: #f9e2d8;
+    --sr-3: #BDC6C3;
+
+    --black: #010101;
+    --white: #ffffff;
 }
 
 html {
