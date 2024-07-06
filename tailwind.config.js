@@ -17,6 +17,11 @@ export default {
         'black': 'var(--black)',
         'white': 'var(--white)',
       },
+      fontFamily: {
+        gloock: ['Gloock', 'serif'],
+        robotoSlab: ['Roboto Slab', 'serif'],
+        playfairDisplay: ['Playfair Display', 'serif'],
+      },
     },
   },
   plugins: [],

@@ -4,7 +4,7 @@ import { Skills } from "./components/Sections/skills";
 export function Home() {
   return (
     <main className="">
-      <section className="bg-pr-1 min-h-screen">
+      <section className="backgroundIntroduction min-h-[79vh] bg-pr-1 bg-cover bg-no-repeat bg-left md:bg-center">
         <Introduction />
       </section>
       <section className="bg-pr-2 min-h-screen py-10">

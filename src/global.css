@@ -23,3 +23,28 @@ html {
 body {
     -webkit-font-smoothing: antialiased;
 }
+
+.backgroundIntroduction {
+    background: rgb(220,201,192);
+    background: linear-gradient(0deg, rgba(220,201,192,1) 0%, rgba(210,169,161,1) 30%, rgba(191,136,126,1) 100%);
+}
+
+.button-container-before::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(45deg);
+    transition: all 250ms linear;
+    opacity: 0;
+}
+  
+.button-container-hover-before:hover::before {
+    top: -50%;
+    left: 100%;
+    transition: all 250ms linear;
+    opacity: 1;
+}
