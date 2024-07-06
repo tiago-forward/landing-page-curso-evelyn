@@ -9,7 +9,7 @@ export function Home() {
       <section className="backgroundIntroduction min-h-[79vh] bg-pr-1 bg-cover bg-no-repeat bg-left md:bg-center">
         <Introduction />
         <div className="relative w-full">
-          <img className="absolute bottom-0 left-0" src={Wave01} alt="" />
+          <img className="absolute bottom-0 left-0" src={Wave01} alt="Wave" />
         </div>
       </section>
       <section className="bg-pr-2 min-h-screen py-10">
