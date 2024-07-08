@@ -1,30 +1,22 @@
 export const navLinks = [
   {
-    label: "HOME",
+    label: "Sobre Mim",
     url: "#",
   },
   {
-    label: "SOBRE MIM",
+    label: "Vantagens",
     url: "#",
   },
   {
-    label: "VANTAGENS",
+    label: "Técnicas Abordadas",
     url: "#",
   },
   {
-    label: "TÉCNICAS INSERIDAS",
+    label: "Depoimentos",
     url: "#",
   },
   {
-    label: "DEPOIMENTOS",
-    url: "#",
-  },
-  {
-    label: "DÚVIDAS",
-    url: "#",
-  },
-  {
-    label: "FALE COMIGO",
+    label: "Dúvidas",
     url: "#",
   },
 ]
