@@ -51,6 +51,8 @@ body {
 
 @layer utilities {
     .rounded-custom {
-        border-radius: 16% 84% 0% 100% / 43% 0% 100% 57%;
+        background: rgb(220,201,192);
+        background: linear-gradient(0deg, rgba(220,201,192,1) 0%, rgba(210,169,161,1) 30%, rgba(220,201,192,1) 100%);
+        border-radius: 25% 75% 44% 56% / 43% 48% 52% 57% ;
     }
 }
