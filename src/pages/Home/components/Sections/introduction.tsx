@@ -1,6 +1,6 @@
 import { CallToActionAnchor } from '../../../../components/CallToActionAnchor'
 
-import ImageTeste from '../../../../../../../../../../Pictures/pngegg.png'
+import ImageTeste from '../../../../assets/pngegg.png'
 
 export function Introduction() {
     return (
