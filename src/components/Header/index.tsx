@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { navLinks } from "../../constants/navLinks"
-import { socialLinks } from "../../constants/socialLinks"
+// import { socialLinks } from "../../constants/socialLinks"
 
 // import { navLinks, socialLinks } from "@/constants";
 // import { MobileMenu } from "./MobileMenu";
