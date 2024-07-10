@@ -17,10 +17,22 @@ export default {
         'black': 'var(--black)',
         'white': 'var(--white)',
       },
+
       fontFamily: {
         gloock: ['Gloock', 'serif'],
         robotoSlab: ['Roboto Slab', 'serif'],
         playfairDisplay: ['Playfair Display', 'serif'],
+      },
+      
+      keyframes: {
+        openMenu: {
+          from: { opacity: 0 },
+          to: { opacity: 1 }
+        }
+      },
+
+      animation: {
+        openMenu: 'openMenu 3s linear'
       },
     },
   },
