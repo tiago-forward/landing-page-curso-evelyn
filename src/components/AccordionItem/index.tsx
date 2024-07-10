@@ -1,10 +1,14 @@
 import { ChevronDown } from "lucide-react";
 
+import { useAutoAnimate } from "@formkit/auto-animate/react";
+
 import { InternalAccordionItemProps } from "../../pages/Home/components/Sections/accordion";
 
 export function AccordionItem({ title, content, isActive, onClickButton }: InternalAccordionItemProps) {
+    const [parent] = useAutoAnimate()
+    
     return (
-        <div className="bg-white rounded-lg shadow-md cursor-pointer hover:bg-pr-1">
+        <div ref={parent} className="bg-white rounded-lg shadow-md cursor-pointer hover:bg-pr-1">
             <button
                 className="w-full p-3 bg-transparent flex items-center justify-between"
                 onClick={onClickButton}
