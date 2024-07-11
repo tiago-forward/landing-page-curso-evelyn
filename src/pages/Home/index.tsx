@@ -15,10 +15,10 @@ export function Home() {
           <img className="absolute bottom-0 left-0" src={Wave01} alt="Wave" />
         </div>
       </section>
-      <section className="bg-pr-2 min-h-screen py-10">
+      <section id="tecnicas" className="bg-pr-2 min-h-screen py-20">
         <Skills />
       </section>
-      <section className="bg-pr-1 py-10">
+      <section id="duvidas" className="bg-pr-1 py-20">
         <Accordion items={AccordionItems} />
       </section>
     </main>

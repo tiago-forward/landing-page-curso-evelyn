@@ -32,7 +32,7 @@ export default {
       },
 
       animation: {
-        openMenu: 'openMenu 3s linear'
+        openMenu: 'openMenu 500ms linear'
       },
     },
   },
