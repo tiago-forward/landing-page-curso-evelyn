@@ -37,7 +37,7 @@ export const MobileMenu = () => {
 
                 <header className="w-full flex items-center justify-between h-20 border-b border-sr-2">
                     <a onClick={handleNavLinkMenu} href={"#"}>
-                        <span className="pl-2 text-amber-900 font-bold uppercase shadow-custom hover:text-white">Evelin Make</span>
+                        <span className="pl-2 text-tertiary font-bold uppercase shadow-custom hover:text-white">Evelin Make</span>
                     </a>
 
                     <button

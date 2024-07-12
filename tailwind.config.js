@@ -9,6 +9,8 @@ export default {
       colors: {
         'primary': 'var(--primary)',
         'secondary': 'var(--secondary)',
+        'tertiary': 'var(--tertiary)',
+        
         'pr-1': 'var(--pr-1)',
         'pr-2': 'var(--pr-2)',
         'sr-1': 'var(--sr-1)',

@@ -26,7 +26,7 @@ export function Accordion({ items = [] }: AccordionProps) {
     }
 
     return (
-        <div>
+        <>
             <Title text={"Dúvidas frequentes"} />
             <div className="max-w-6xl mx-auto border flex flex-col gap-2 p-4">
                 {items.map((item, index) => (
@@ -38,6 +38,6 @@ export function Accordion({ items = [] }: AccordionProps) {
                     />
                 ))}
             </div>
-        </div>
+        </>
     )
 }

@@ -11,12 +11,12 @@ export function Introduction() {
                 </div>
                 <div className="flex flex-col items-end">
                     <h1 className="max-w-2xl mb-20 text-pr-1 text-4xl lg:text-5xl text-end font-bold font-gloock lg:tracking-wider">
-                        Venha participar do meu novo curso, onde irei te ajudar a <span className="text-amber-900">faturar</span> e se tornar uma maquiadora <span className="text-amber-900">profissional</span>
+                        Venha participar do meu novo curso, onde irei te ajudar a <span className="text-tertiary">faturar</span> e se tornar uma maquiadora <span className="text-tertiary">profissional</span>
                     </h1>
                 </div>
             </div>
             <div className="flex flex-col items-center justify-center gap-4 mt-4">
-                <p className="z-10 text-lg text-center text-amber-900 tracking-wider font-robotoSlab lg:text-xl">Entre em contato comigo ou continue rolando para saber mais</p>
+                <p className="z-10 text-lg text-center text-tertiary tracking-wider font-robotoSlab lg:text-xl">Entre em contato comigo ou continue rolando para saber mais</p>
                 <CallToActionAnchor href='' />
             </div>
         </div>

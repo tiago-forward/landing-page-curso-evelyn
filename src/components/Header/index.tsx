@@ -27,8 +27,8 @@ export const Header = () => {
       <header
         className={
           effectScroll
-            ? "z-50 fixed h-20 w-full flex flex-col items-center justify-center transition-colors duration-300 backdrop-blur-md bg-opacity-15 text-amber-900 shadow-lg"
-            : "z-50 fixed h-20 w-full flex flex-col items-center justify-center transition-colors duration-300 bg-transparent text-amber-900"
+            ? "z-50 fixed h-20 w-full flex flex-col items-center justify-center transition-colors duration-300 backdrop-blur-md bg-opacity-15 text-tertiary shadow-lg"
+            : "z-50 fixed h-20 w-full flex flex-col items-center justify-center transition-colors duration-300 bg-transparent text-tertiary"
         }>
         {/* <div className="bg-sr-2 w-full">
           <nav className="max-w-6xl m-auto flex items-center justify-between px-4 py-1 font-robotoSlab">
@@ -45,7 +45,7 @@ export const Header = () => {
         </div> */}
         <div className="w-full max-w-6xl px-4 flex justify-between gap-2">
           <a href={"#"}>
-            <span className="text-amber-900 font-bold uppercase shadow-custom hover:text-white">Evelyn Make</span>
+            <span className="text-tertiary font-bold uppercase shadow-custom hover:text-white">Evelyn Make</span>
           </a>
           <nav className="hidden max-w-6xl lg:flex lg:flex-1 lg:items-center lg:justify-center gap-8">
             <ul className="flex items-center gap-4">
