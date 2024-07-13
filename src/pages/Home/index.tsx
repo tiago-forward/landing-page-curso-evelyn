@@ -26,7 +26,7 @@ export function Home() {
       <section id="beneficios" className="bg-pr-1 py-20 relative">
         <Benefits />
       </section>
-      <section id="duvidas" className="bg-pr-1 py-20">
+      <section id="duvidas" className="bg-pr-2 py-20">
         <MyWork />
       </section>
       <section id="duvidas" className="bg-pr-1 py-20">
