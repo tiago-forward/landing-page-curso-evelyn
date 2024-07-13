@@ -1,4 +1,4 @@
-import { socialLinks } from "../../constants/socialMediaLinks"
+import { socialMediaLinks } from "../../constants/socialMediaLinks"
 
 export const Footer = () => {
   return (
@@ -8,7 +8,7 @@ export const Footer = () => {
           <span className="text-tertiary font-bold uppercase shadow-custom hover:text-white">Evelyn Make</span>
           <nav className="flex">
             <ul className="flex items-center justify-center gap-2">
-              {socialLinks.map((link) => (
+              {socialMediaLinks.map((link) => (
                 <li key={link.id} className="duration-300 rounded-full border border-pr-1 bg-pr-1 p-1 text-tertiary hover:opacity-70 hover:border-pr-2">
                   <a href={link.url} target="_blank">
                     {link.icon && <link.icon size={20} />}

@@ -12,3 +12,4 @@ Projeto cliente iniciado!
 - Lucide React
 - Zod
 - Formkit AutoAnimate
+- Swiper

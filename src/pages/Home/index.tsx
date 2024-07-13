@@ -1,13 +1,14 @@
 import { Introduction } from "./components/Sections/introduction";
 import { Skills } from "./components/Sections/skills";
 import { Faqs } from "./components/Sections/faqs";
+import { Benefits } from "./components/Sections/benefits";
+import { MyWork } from "./components/Sections/myWork";
 
 import { AccordionItems } from "../../constants/AccordionItems";
 
 import Wave01 from '../../assets/wave-01.svg'
 import Wave02 from '../../assets/wave-02.svg'
 
-import { Benefits } from "./components/Sections/benefits";
 
 export function Home() {
   return (
@@ -26,8 +27,11 @@ export function Home() {
         <Benefits />
       </section>
       <section id="duvidas" className="bg-pr-1 py-20">
+        <MyWork />
+      </section>
+      <section id="duvidas" className="bg-pr-1 py-20">
         <Faqs items={AccordionItems} />
       </section>
-    </main>
+    </main >
   )
 }

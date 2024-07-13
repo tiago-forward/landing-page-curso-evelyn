@@ -67,4 +67,26 @@ body {
         -webkit-text-stroke: 1px #f9e2d8;
         text-shadow: 4px 4px 4px #f9e2d8;
     }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+    color: #BF887E; /* Altere esta cor conforme necessário */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    border-radius: 50%; /* Torna os botões redondos */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .swiper-button-next:hover,
+    .swiper-button-prev:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo mais escuro ao passar o mouse */
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+    font-size: 20px; /* Tamanho da seta */
+    }
 }
