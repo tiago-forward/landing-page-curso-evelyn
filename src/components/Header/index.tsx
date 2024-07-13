@@ -4,8 +4,8 @@ import { useEffect, useState } from "react"
 
 import { MobileMenu } from "../MobileMenu"
 
-import { navLinks } from "../../constants/navLinks"
-import { socialLinks } from "../../constants/socialLinks"
+import { navigationLinks } from "../../constants/navigationLinks"
+import { socialMediaLinks } from "../../constants/socialMediaLinks"
 
 export const Header = () => {
   const [effectScroll, setEffectScroll] = useState<boolean>(false)
@@ -49,7 +49,7 @@ export const Header = () => {
           </a>
           <nav className="hidden max-w-6xl lg:flex lg:flex-1 lg:items-center lg:justify-center gap-8">
             <ul className="flex items-center gap-4">
-              {navLinks.map((link) => (
+              {navigationLinks.map((link) => (
                 <li key={link.id} className="font-robotoSlab font-bold tracking-wide duration-300 uppercase hover:text-white">
                   <a href={link.url}>
                     {link.label}
@@ -60,7 +60,7 @@ export const Header = () => {
           </nav>
           <nav className="hidden lg:flex">
             <ul className="flex items-center justify-center gap-2">
-              {socialLinks.map((link) => (
+              {socialMediaLinks.map((link) => (
                 <li key={link.id} className="duration-300 rounded-full border border-pr-1 bg-pr-1 p-1 hover:opacity-70 hover:border-pr-2">
                   <a href={link.url} target="_blank">
                     {link.icon && <link.icon size={20} />}

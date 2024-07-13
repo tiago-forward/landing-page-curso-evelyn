@@ -3,8 +3,8 @@
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
 
-import { navLinks } from "../../constants/navLinks"
-import { socialLinks } from "../../constants/socialLinks"
+import { navigationLinks } from "../../constants/navigationLinks"
+import { socialMediaLinks } from "../../constants/socialMediaLinks"
 
 export const MobileMenu = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -50,7 +50,7 @@ export const MobileMenu = () => {
 
                 <nav className="flex flex-col flex-1 items-end justify-center gap-8 pr-4">
                     <ul className="flex flex-col items-end gap-8">
-                        {navLinks.map((link) => (
+                        {navigationLinks.map((link) => (
                             <li key={link.id} className="font-robotoSlab font-bold tracking-wider duration-300 uppercase text-lg hover:text-white">
                                 <a href={link.url}>
                                     {link.label}
@@ -62,7 +62,7 @@ export const MobileMenu = () => {
                         Fale conosco
                     </Link> */}
                     <ul className="flex items-center justify-center gap-2">
-                        {socialLinks.map((link) => (
+                        {socialMediaLinks.map((link) => (
                             <li key={link.id} className="duration-300 rounded-full border border-pr-1 bg-pr-1 p-1 hover:opacity-70 hover:border-pr-2">
                                 <a href={link.url} target="_blank">
                                     {link.icon && <link.icon size={20} />}

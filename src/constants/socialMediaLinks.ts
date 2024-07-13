@@ -1,6 +1,6 @@
 import { Instagram } from "lucide-react";
 
-export const socialLinks = [
+export const socialMediaLinks = [
   {
     id: 1,
     label: "Instagram",

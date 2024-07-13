@@ -1,6 +1,6 @@
 import { Introduction } from "./components/Sections/introduction";
 import { Skills } from "./components/Sections/skills";
-import { Accordion } from "./components/Sections/accordion";
+import { Faqs } from "./components/Sections/faqs";
 
 import { AccordionItems } from "../../constants/AccordionItems";
 
@@ -26,7 +26,7 @@ export function Home() {
         <Benefits />
       </section>
       <section id="duvidas" className="bg-pr-1 py-20">
-        <Accordion items={AccordionItems} />
+        <Faqs items={AccordionItems} />
       </section>
     </main>
   )

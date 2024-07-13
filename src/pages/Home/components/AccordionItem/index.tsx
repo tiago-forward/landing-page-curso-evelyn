@@ -2,7 +2,7 @@ import { ChevronDown } from "lucide-react";
 
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 
-import { InternalAccordionItemProps } from "../Sections/accordion";
+import { InternalAccordionItemProps } from "../Sections/faqs";
 
 export function AccordionItem({ title, content, isActive, onClickButton }: InternalAccordionItemProps) {
     const [parent] = useAutoAnimate()

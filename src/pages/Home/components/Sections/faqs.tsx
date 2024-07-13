@@ -18,7 +18,7 @@ interface AccordionProps {
     items: AccordionItemProps[]
 }
 
-export function Accordion({ items = [] }: AccordionProps) {
+export function Faqs({ items = [] }: AccordionProps) {
     const [activeIndex, setActiveIndex] = useState<number | null>(0)
 
     const handleClickButton = (index: number) => {

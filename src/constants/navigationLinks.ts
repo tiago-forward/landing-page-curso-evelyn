@@ -1,4 +1,4 @@
-export const navLinks = [
+export const navigationLinks = [
   {
     id: 1,
     label: "Sobre Mim",

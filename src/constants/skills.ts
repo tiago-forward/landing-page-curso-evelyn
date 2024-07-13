@@ -1,6 +1,6 @@
 import { Linkedin } from "lucide-react";
 
-export const skillsCard = [
+export const skills = [
   {
     id: 1,
     label: "PREPARAÇÃO DA PELE",
