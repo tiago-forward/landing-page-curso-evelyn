@@ -6,7 +6,7 @@ interface TitleProps {
 
 export function Title({ text, strong1, strong2 }: TitleProps) {
     return (
-        <h2 className="text-4xl text-center font-semibold font-robotoSlab my-8 px-4 lg:text-5 xl">
+        <h2 className="text-4xl text-center font-semibold font-robotoSlab my-8 px-4 lg:text-5xl">
             <strong className="text-tertiary">
                 {strong1}
             </strong>

@@ -10,7 +10,7 @@ export default {
         'primary': 'var(--primary)',
         'secondary': 'var(--secondary)',
         'tertiary': 'var(--tertiary)',
-        
+
         'pr-1': 'var(--pr-1)',
         'pr-2': 'var(--pr-2)',
         'sr-1': 'var(--sr-1)',
@@ -25,7 +25,12 @@ export default {
         robotoSlab: ['Roboto Slab', 'serif'],
         playfairDisplay: ['Playfair Display', 'serif'],
       },
-      
+
+      gridTemplateColumns: {
+        "18": "18rem 18rem",
+        "18x3": "18rem 18rem 18rem"
+      },
+
       keyframes: {
         openMenu: {
           from: { opacity: 0 },
