@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-import { AccordionItem } from "../../../../components/AccordionItem"
+import { AccordionItem } from "../AccordionItem"
 import { Title } from "../../../../components/Title"
 
 export type AccordionItemProps = {

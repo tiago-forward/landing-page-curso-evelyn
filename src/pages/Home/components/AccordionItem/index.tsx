@@ -2,7 +2,7 @@ import { ChevronDown } from "lucide-react";
 
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 
-import { InternalAccordionItemProps } from "../../pages/Home/components/Sections/accordion";
+import { InternalAccordionItemProps } from "../Sections/accordion";
 
 export function AccordionItem({ title, content, isActive, onClickButton }: InternalAccordionItemProps) {
     const [parent] = useAutoAnimate()
@@ -13,13 +13,13 @@ export function AccordionItem({ title, content, isActive, onClickButton }: Inter
                 className="w-full p-3 bg-transparent flex items-center justify-between"
                 onClick={onClickButton}
             >
-                <span className="max-w-full font-semibold text-sm whitespace-nowrap overflow-hidden overflow-ellipsis md:text-lg">{title}</span>
+                <span className="max-w-full font-semibold text-sm whitespace-nowrap overflow-hidden overflow-ellipsis md:text-xl" title={title}>{title}</span>
                 <ChevronDown className={`text-pr-2 transition-transform ${isActive ? 'rotate-180' : ''}`} />
             </button>
             {isActive && (
                 <div className={`text-sm p-3 h-full border-t border-sr-3`
                 }>
-                    <p className="text-sm md:text-base">{content}</p>
+                    <p className="text-sm md:text-base lg:text-lg">{content}</p>
                 </div>
             )}
         </div>

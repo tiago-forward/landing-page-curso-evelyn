@@ -3,7 +3,7 @@ import { socialLinks } from "../../constants/socialLinks"
 export const Footer = () => {
   return (
     <footer className="w-full flex flex-col items-center justify-center transition-colors duration-500 bg-zinc-950 text-white gap-4 border-t border-zinc-950 py-10">
-      <div className="w-full max-w-6xl m-auto flex flex-col items-center gap-4">
+      <div className="w-full max-w-6xl px-4 m-auto flex flex-col items-center gap-4">
         <div className="flex flex-col lg:flex-row items-center lg:justify-between gap-2 w-full">
           <span className="text-tertiary font-bold uppercase shadow-custom hover:text-white">Evelyn Make</span>
           <nav className="flex">
