@@ -18,7 +18,7 @@ export function Introduction() {
             </div>
             <div className="flex flex-col items-center justify-center gap-4">
                 <p className="z-10 text-3xl text-center text-tertiary tracking-wider font-robotoSlab lg:text-4xl lg:my-10">Aprenda as técnicas avançadas de uma maquiadora profissional de sucesso</p>
-                <CallToActionAnchor href='' />
+                <CallToActionAnchor href='#' />
             </div>
         </div>
     )

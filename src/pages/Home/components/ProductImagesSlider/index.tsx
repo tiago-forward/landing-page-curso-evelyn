@@ -37,8 +37,8 @@ export function ProductImagesSlider() {
                         },
                     }}
                     modules={[Autoplay, Navigation, Pagination]}
-                    navigation={true}
-                    onSlideChange={() => console.log('slide change')}
+                    navigation={false}
+                    onSlideChange={() => {}}
                     onSwiper={(swiper) => console.log(swiper)}
                 >
                     {ProductImages.map((product) => (
