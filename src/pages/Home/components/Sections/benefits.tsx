@@ -25,7 +25,7 @@ export function Benefits() {
                 </ul>
                 <div className="absolute bottom-[-10rem] flex flex-col gap-8 items-center bg-pr-2 rounded-xl p-6 w-full">
                     <p className="z-10 text-3xl text-center text-tertiary tracking-wider font-robotoSlab lg:text-4xl lg:my-10">Não perca tempo e aproveite agora essa oportunidade</p>
-                    <CallToActionAnchor href="#" />
+                    <CallToActionAnchor href="#pricing" />
                 </div>
             </div>
         </>

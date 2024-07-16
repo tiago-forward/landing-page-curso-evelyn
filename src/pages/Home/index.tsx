@@ -8,6 +8,7 @@ import { AccordionItems } from "../../constants/AccordionItems";
 
 import Wave01 from '../../assets/wave-01.svg'
 import Wave02 from '../../assets/wave-02.svg'
+import { Schedule } from "./components/Sections/schedule";
 
 
 export function Home() {
@@ -28,6 +29,9 @@ export function Home() {
       </section>
       <section id="duvidas" className="bg-pr-2 py-20">
         <MyWork />
+      </section>
+      <section id="pricing" className="py-20">
+        <Schedule />
       </section>
       <section id="duvidas" className="bg-pr-1 py-20">
         <Faqs items={AccordionItems} />
