@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 import { AccordionItem } from "../AccordionItem"
-import { Title } from "../../../../components/Title"
+import { TitleSectionRoot } from "../../../../components/Title/TitleSection"
 
 export type AccordionItemProps = {
     id: number
@@ -27,7 +27,9 @@ export function Faqs({ items = [] }: AccordionProps) {
 
     return (
         <>
-            <Title text={"Dúvidas frequentes"} />
+            <TitleSectionRoot>
+                Dúvidas frequentes
+            </TitleSectionRoot>
             <div className="max-w-6xl mx-auto border flex flex-col gap-2 p-4">
                 {items.map((item, index) => (
                     <AccordionItem
