@@ -35,11 +35,17 @@ export default {
         openMenu: {
           from: { opacity: 0 },
           to: { opacity: 1 }
+        },
+        backgroundColors: {
+          '0%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+          '100%': { backgroundPosition: '0% 50%' },
         }
       },
 
       animation: {
-        openMenu: 'openMenu 500ms linear'
+        openMenu: 'openMenu 500ms linear',
+        backgroundColors: 'backgroundColors 3s ease infinite'
       },
     },
   },

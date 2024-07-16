@@ -70,23 +70,29 @@ body {
 
     .swiper-button-next,
     .swiper-button-prev {
-    color: #BF887E; /* Altere esta cor conforme necessário */
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
-    border-radius: 50%; /* Torna os botões redondos */
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        color: #BF887E;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .swiper-button-next:hover,
     .swiper-button-prev:hover {
-    background-color: rgba(0, 0, 0, 0.7); /* Fundo mais escuro ao passar o mouse */
+        background-color: rgba(0, 0, 0, 0.7);
     }
 
     .swiper-button-next:after,
     .swiper-button-prev:after {
-    font-size: 20px; /* Tamanho da seta */
+        font-size: 20px;
+    }
+
+    .call-to-action-anchor {
+        background: rgb(220,201,192);
+        background: linear-gradient(225deg, rgba(220,201,192,1) 0%, rgba(210,169,161,1) 30%, rgba(220,201,192,1) 100%);
+        background-size: 400%;
     }
 }
