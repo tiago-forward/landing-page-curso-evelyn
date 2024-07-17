@@ -51,7 +51,7 @@ export const Header = () => {
             <ul className="flex items-center gap-4">
               {navigationLinks.map((link) => (
                 <li key={link.id} className="font-robotoSlab font-bold tracking-wide duration-300 uppercase hover:text-white">
-                  <a href={link.url}>
+                  <a href={link.url} aria-label={link.label} role="navigation">
                     {link.label}
                   </a>
                 </li>
@@ -62,7 +62,7 @@ export const Header = () => {
             <ul className="flex items-center justify-center gap-2">
               {socialMediaLinks.map((link) => (
                 <li key={link.id} className="duration-300 rounded-full border border-pr-1 bg-pr-1 p-1 hover:opacity-70 hover:border-pr-2">
-                  <a href={link.url} target="_blank">
+                  <a href={link.url} target="_blank" aria-label={link.label} title={link.label}>
                     {link.icon && <link.icon size={20} />}
                   </a>
                 </li>

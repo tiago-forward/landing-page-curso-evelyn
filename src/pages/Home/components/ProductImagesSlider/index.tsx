@@ -38,12 +38,18 @@ export function ProductImagesSlider() {
                     }}
                     modules={[Autoplay, Navigation, Pagination]}
                     navigation={false}
-                    onSlideChange={() => {}}
-                    onSwiper={(swiper) => console.log(swiper)}
+                    onSlideChange={() => { }}
+                    onSwiper={() => { }}
                 >
                     {ProductImages.map((product) => (
                         <SwiperSlide key={product.id} className="mb-10">
-                            <img className="w-full h-96 object-cover rounded-xl" src={product.image} alt={`Slide ${product.id}`} />
+                            <img
+                                className="w-full h-96 object-cover rounded-xl"
+                                src={product.image}
+                                alt={`Slide ${product.id}`}
+                                loading='lazy'
+                                decoding='async'
+                            />
                         </SwiperSlide>
                     ))}
                 </Swiper>

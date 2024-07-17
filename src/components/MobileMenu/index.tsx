@@ -21,8 +21,14 @@ export const MobileMenu = () => {
 
     return (
         <div className="lg:hidden">
-            <button onClick={handleToggleMenu} className="hover:text-amber-600">
-                <Menu />
+            <button
+                onClick={handleToggleMenu}
+                className="hover:text-amber-600"
+                aria-label={isOpen ? "Fechar menu" : "Abrir menu"}
+                aria-expanded={isOpen}
+                aria-controls="mobile-menu"
+            >
+                {isOpen ? <X /> : <Menu />}
             </button>
 
             {isOpen && (
@@ -43,16 +49,17 @@ export const MobileMenu = () => {
                     <button
                         onClick={handleToggleMenu}
                         className="hover:text-amber-600 px-4"
+                        aria-label="Fechar menu"
                     >
                         <X />
                     </button>
                 </header>
 
-                <nav className="flex flex-col flex-1 items-end justify-center gap-8 pr-4">
+                <nav className="flex flex-col flex-1 items-end justify-center gap-8 pr-4" role="navigation">
                     <ul className="flex flex-col items-end gap-8">
                         {navigationLinks.map((link) => (
                             <li key={link.id} className="font-robotoSlab font-bold tracking-wider duration-300 uppercase text-lg hover:text-white">
-                                <a href={link.url}>
+                                <a href={link.url} aria-label={link.label} role="navigation">
                                     {link.label}
                                 </a>
                             </li>
@@ -64,7 +71,7 @@ export const MobileMenu = () => {
                     <ul className="flex items-center justify-center gap-2">
                         {socialMediaLinks.map((link) => (
                             <li key={link.id} className="duration-300 rounded-full border border-pr-1 bg-pr-1 p-1 hover:opacity-70 hover:border-pr-2">
-                                <a href={link.url} target="_blank">
+                                <a href={link.url} target="_blank" aria-label={link.label} title={link.label}>
                                     {link.icon && <link.icon size={20} />}
                                 </a>
                             </li>

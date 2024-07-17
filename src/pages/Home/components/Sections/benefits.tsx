@@ -16,7 +16,13 @@ export function Benefits() {
                     {benefits.map((benefit) => (
                         <li key={benefit.id} className="flex flex-col items-center gap-8 py-4 px-6 rounded-3xl bg-pr-2">
                             <div className="border bg-sr-2 p-4 rounded-full">
-                                <img className="size-24 p-2" src={benefit.icon} alt={benefit.alt} />
+                                <img
+                                    className="size-24 p-2"
+                                    src={benefit.icon}
+                                    alt={benefit.alt}
+                                    loading='lazy'
+                                    decoding='async'
+                                />
                             </div>
                             <h3 className="text-2xl text-center text-black font-medium">{benefit.title}</h3>
                             <p className="text-justify text-xl">{benefit.description}</p>
