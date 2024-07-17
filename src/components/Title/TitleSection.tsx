@@ -10,6 +10,6 @@ interface TitleSectionRootProps extends ComponentProps<'h2'> { }
 
 export function TitleSectionRoot(props: TitleSectionRootProps) {
     return (
-        <h2 {...props} className="text-4xl text-center font-semibold font-robotoSlab my-8 px-4 lg:text-5xl" />
+        <h2 {...props} className="text-3xl text-center font-semibold font-robotoSlab my-8 px-4 md:text-4xl lg:text-5xl" />
     )
 }
