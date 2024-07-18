@@ -7,15 +7,18 @@ export function Introduction() {
         <div className="max-w-6xl mx-auto min-h-[85vh] p-4 pt-20 lg:pt-40">
             <div className='flex flex-col items-center justify-center gap-4 lg:flex-row relative'>
                 <div className='rounded-custom bg-blue-700 w-[14rem] h-[14rem] overflow-hidden lg:w-[28rem] lg:h-[28rem]'>
-                    <div className='h-full w-full object-cover'>
-                        <img
-                            src={ImageTeste}
-                            alt="Evelyn MakeUp"
-                            loading='lazy'
-                            decoding='async'
-                            fetchPriority='high'
-                        />
-                    </div>
+
+                    <img
+                        src={ImageTeste}
+                        alt="Evelyn MakeUp"
+                        loading='lazy'
+                        decoding='async'
+                        fetchPriority='high'
+                        width={224}
+                        height={224}
+                        className='object-cover lg:w-[28rem] lg:h-[28rem]'
+                    />
+
                     <div className='absolute rounded-custom-header h-56 w-72 top-[-230px]  left-[-110px] lg:top-[-280px]'></div>
                 </div>
                 <h1 className="max-w-2xl mb-20 text-pr-1 text-3xl text-center font-bold font-gloock md:text-4xl lg:text-end lg:text-5xl lg:tracking-wider">
