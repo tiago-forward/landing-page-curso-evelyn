@@ -21,8 +21,8 @@ export const Footer = () => {
         <div className="flex flex-col gap-2">
           <p className="text-sm text-center">Todos os Direitos Reservados Copyright © {new Date().getFullYear()}</p>
           <div>
-            <p className="text-xs text-center">Desenvolvido por
-              <a href="https://www.linkedin.com/in/tiago-lacerda-devfrontend/" target="_blank" className="text-blue-400 hover:underline" aria-label="Tiago Forward"> Tiago Forward</a>
+            <p className="text-sm text-center">Desenvolvido por
+              <a href="https://www.linkedin.com/in/tiago-lacerda-devfrontend/" target="_blank" className="text-blue-400 font-semibold hover:underline" aria-label="Tiago Forward"> Tiago Forward</a>
             </p>
           </div>
         </div>
